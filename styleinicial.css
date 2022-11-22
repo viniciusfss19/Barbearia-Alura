@@ -34,50 +34,29 @@ nav a:hover{
     text-decoration: underline;
 }
 /*=========================================== Main ==================================================*/
-
-.produtos{
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px 0;
-    
+.banner{
+    width: 100%;
 }
-.produtos li{
-    display: inline-block;
+.titulo-principal{
     text-align: center;
-    width: 30%;
-    vertical-align:top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 2px solid #000000;
-    border-radius:10px;
+    font-size: 2em;
+    margin: 0 0 1em 0;
 }
 
-.produtos li:hover{
-border-color: #c78c19;
-
+.principal p{
+    margin: 0 0 1em 0 ;
 }
-.produtos li:active{
-    border-color:#08c019
-}
-.produtos li:hover h2{
-    font-size: 34px;
-}
-.produtos h2{
-    font-size: 30px;
+.principal strong{
     font-weight: bold;
 }
-
-.descricao{
-    font-size: 18px;
-    margin-top: 10px ;
+.principal em{
+    font-style: italic;
+}
+.imagembeneficios{
+    width: 60%;
 }
 
-.preco{
- font-size: 22px;
- font-weight: bold;
- margin-top: 10px ;
-}
+
 /*=========================================== Footer ==================================================*/
 
 footer {
