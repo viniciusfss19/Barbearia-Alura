@@ -41,9 +41,17 @@ nav a:hover{
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em 0;
+    clear: left;
+}
+
+.utensilios{
+    width: 150px;
+    float: left;
+    margin-right: 10px;
 }
 
 .principal p{
+    
     margin: 0 0 1em 0 ;
 }
 .principal strong{
